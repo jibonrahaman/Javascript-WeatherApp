@@ -1,6 +1,9 @@
 const submitBtn = document.querySelector('.submit-btn');
 const input = document.querySelector('.input');
-const cityName = document.querySelector('.cityName')
+const cityName = document.querySelector('.cityName');
+const tem = document.querySelector('.tem');
+const des = document.querySelector('.des');
+
 submitBtn.addEventListener('click', function(){
     const input = document.querySelector('.input').value
 
